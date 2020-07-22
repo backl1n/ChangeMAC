@@ -4,7 +4,7 @@ echo "------------------------------------------"
 echo "changement d'adresse MAC(eth0,wlan0,waln1)"
 echo "------------------------------------------"
 echo "inteface:"
-sudo ifconfig 
+sudo ifconfig >> ifconfig.txt
 echo "----------------------------------------------"
 echo "choisir interface"
 read interface
