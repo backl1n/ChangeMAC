@@ -1,5 +1,5 @@
 #!/bin/bash
-#main
+#!main
 echo "------------------------------------------"
 echo "changement d'adresse MAC(eth0,wlan0,waln1)"
 echo "------------------------------------------"
@@ -15,7 +15,7 @@ echo "2 : change integralement toute interface "
 echo "choisir l'option : "
 read option
 echo "----------------------------------------------"
-#--------------------------------------------------------
+#!--------------------------------------------------------
 if [[$option = '1']]
 then
     echo "choix 1:"
